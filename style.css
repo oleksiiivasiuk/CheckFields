@@ -1,0 +1,14 @@
+body{
+	display: block;
+	margin: auto;
+	width: auto;
+	max-width: 250px;
+}
+.container{
+	margin-top: 30%;
+}
+#messageFromScript{
+	display:block;
+	margin: auto;
+	color: red;
+}

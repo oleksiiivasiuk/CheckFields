@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <script id="resultField" type="text/template" >
+        <div id="resultFieldContent"><%= resultOfValidation %></div>
+        </script>
+        <title>Categories</title>
+    </head>
+    <body>
+    <div class="container">
+        User name:<input type="text" id="userName">
+        Login:<input type="text" id="userLogin"><br>
+        <list>
+        <ul><input type="checkbox" class="categories">programming</ul>
+        <ul><input type="checkbox" class="categories">testing</ul>
+        <ul><input type="checkbox" class="categories">planning</ul>
+        <ul><input type="checkbox" class="categories">educating</ul>
+        <ul><input type="checkbox" class="categories">organizating</ul>
+        <ul><input type="checkbox" class="categories">phisical training</ul>
+        <ul><input type="checkbox" class="categories">learning english</ul>
+        </list>
+        <input type="button" value="Check" onclick="validation.render()">
+        <div id="messageFromScript"></div>
+        <script src="js/jquery.js"></script>
+        <script src="js/underscore.js"></script>
+        <script src="js/backbone.js"></script>
+        <script src="js/script.js"></script>
+    </div>
+    </body>
+</html>
